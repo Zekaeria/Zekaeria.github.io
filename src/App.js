@@ -1,6 +1,8 @@
 import logo from "./logo.svg";
 import "./App.css";
 
+import img1 from "./assets/slide4.png";
+
 function App() {
   return (
     <div className="App">
@@ -52,8 +54,27 @@ function App() {
             </p>
           </div>
           <div className="col-md-5">
+            <img className="section-img" src="https://res.cloudinary.com/comida-for-familias-inc/image/upload/v1633843261/Expresson/slide4_uqndql.png" alt="img" />
+          </div>
+        </div>
+
+        {/*divider*/}
+        <hr className="featurette-divider"></hr>
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading">
+              Oh yeah, it’s that good.{" "}
+              <span class="text-muted">See for yourself.</span>
+            </h2>
+            <p class="lead lead-fix">
+              Another featurette? Of course. More placeholder content here to
+              give you an idea of how this layout would work with some actual
+              real-world content in place.
+            </p>
+          </div>
+          <div class="col-md-5 order-md-1">
             <svg
-              className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
               width="500"
               height="500"
               xmlns="http://www.w3.org/2000/svg"

@@ -79,12 +79,21 @@
   width:100%;
 }
 
+.featurette-divider{
+  margin: 4rem auto;
+}
+
 .featurette-heading-text{
   font-weight: 400;
   margin-top: 7rem;
 }
 
 .lead-fix{
-  text-align: left;
-  margin-left: 2rem;
+  margin: 0 5rem;
+}
+
+.section-img {
+  width: 500px;
+  height: auto;
+  padding: 0 5rem;
 }
